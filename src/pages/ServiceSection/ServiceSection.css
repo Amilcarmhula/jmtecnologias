@@ -1,0 +1,67 @@
+:root {
+    --trasparencia: rgba(255, 255, 255, .2);
+    --fundo-de-alternancia-2: rgba(0, 0, 0, .1);
+    --fundo-de-alternancia: rgb(225, 247, 255);
+    --fundo-de-botoes: rgb(0, 176, 240);
+    --cor-de-heading: rgb(0, 0, 102);
+    --preto-textual: #000;
+    --branco-textual: #fff;
+
+}
+
+#service-s {
+    width: 100%;
+    position: relative;
+    background: var(--fundo-de-alternancia-2);
+}
+
+.service {
+    /* padding-top: 57.5px; */
+    /* background: var(--fundo-de-alternancia-2); */
+}
+
+#paragrafo-service {
+    text-align: center;
+}
+
+.card {
+    box-shadow: 0 0 9px 5px rgba(0, 0, 0, 0.5);
+}
+
+.service-link {
+    text-decoration: none;
+    color: #000;
+}
+
+#card-title {
+    color: var(--cor-de-heading);
+    font-weight: 600;
+}
+
+#card-body {
+    height: 195px;
+    overflow: auto;
+    background: rgba(0, 0, 0, .05)
+}
+
+#card-text {
+    text-align: justify;
+}
+
+@media screen and (max-width:1200px) {
+
+    /* .service {
+        background: var(--branco-textual);
+    } */
+    #paragrafo-service {
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width:576px) {
+    #card-img-top-service {
+        border: 1px solid;
+        background-size: cover;
+        /* width: 250px; */
+    }
+}

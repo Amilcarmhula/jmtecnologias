@@ -1,0 +1,58 @@
+#marks-clients{
+    /* height: 100vh; */
+    width: 99vw;
+    position: relative;
+}
+ 
+@keyframes rolagem {
+    0%{left: -290px;}
+    25%{left: 290px;}
+    50%{left: -290px;}   
+    75%{left: 290px;}   
+    100%{left: -290px;}   
+}
+
+
+#mark-container{
+    position: relative;
+    left: -290px;
+    /* border: 2px solid red; */
+    animation-name:  rolagem;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite; 
+}
+
+.marks-container{
+    display:inline ;
+    margin: 20px;
+    /* width: 250px;
+    height: 250px; */
+    
+}
+.mark-img:hover{
+    background: rgb(0,0,102);
+}
+
+
+.mark-img{
+    margin: 5px;
+    border-radius: 50%;
+    /* box-shadow: 0 0 5px 3px rgb(225, 247, 255);rgb(0, 176, 240); */
+    box-shadow: 0 0 5px 3px rgb(0, 176, 240);
+}
+@media screen and (max-width:1400px) {
+    #marks-clients{
+        display: none;
+     }
+   }
+
+@media screen and (max-width:576px) {
+ #marks-clients{
+    display: none;
+ }
+}
+
+
+

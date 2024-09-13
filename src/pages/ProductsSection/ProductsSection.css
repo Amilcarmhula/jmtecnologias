@@ -1,0 +1,42 @@
+:root {
+    --trasparencia: rgba(255, 255, 255, .2);
+    --fundo-de-alternancia-2: rgba(0, 0, 0, .1);
+    --fundo-de-alternancia: rgb(225, 247, 255);
+    --fundo-de-botoes: rgb(0, 176, 240);
+    --cor-de-heading: rgb(0, 0, 102);
+    --preto-textual: #000;
+    --branco-textual: #fff;
+}
+
+#product-s {
+    position: relative;
+    /* background: var(--fundo-de-alternancia-2); */
+}
+
+#product-header {
+    color: var(--cor-de-heading);
+    /* text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.439); */
+    font-weight: 600;
+}
+
+#prod-1 {
+    background: url('../../assets/image/bg1.jpg');
+    background-size: cover;
+    /* height: 20vh; */
+    /* width: 200px; */
+
+}
+
+#prod-2 {
+    background: url('../../assets/image/bg1.jpg');
+    /* height: 200px; */
+    background-size: cover;
+}
+
+
+#prod-3 {
+    background: url('../../assets/image/bg1.jpg');
+    background-size: cover;
+    /* height: 200px; */
+    /* width: 200px; */
+}

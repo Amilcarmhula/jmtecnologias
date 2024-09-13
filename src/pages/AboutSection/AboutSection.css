@@ -1,0 +1,102 @@
+:root{
+    --trasparencia: rgba(255,255,255, .2);
+    --fundo-de-alternancia-2: rgba(0,0,0, .1);
+    --fundo-de-alternancia: rgb(225, 247, 255);
+    --fundo-de-botoes:rgb(0, 176, 240);
+    --cor-de-heading:rgb(0,0,102);
+    --preto-textual:#000;
+    --branco-textual:#fff;
+}
+
+#about-s {
+    /* height: 100vh; */
+    position: relative;
+    background: var(--fundo-de-alternancia-2);
+}
+.about{
+    /* padding-top: 57.5px; */
+}
+
+
+.heading{
+    color: var(--cor-de-heading);
+    font-size: 40px;
+    font-weight: 900;
+    text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.439);
+    /* font-family: 'Berlin Sans FB Demi'; */
+
+}
+.paragrafo-about{
+    text-align: center;
+}
+#card-about{
+    overflow: auto;
+    /* height: 500px; */
+    /* margin-bottom: 50px; */
+}
+
+#card-header{
+    color: var(--cor-de-heading);
+    font-weight: 600;
+}
+
+.header-m2v{
+    color: var(--cor-de-heading);
+    text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.439);
+    font-weight: 600;
+}
+/* #missao{
+    background: url('../../assets/image/hardware.jpg');
+    background-size: cover;
+    border-radius: 30px;
+}
+#valor{
+    background: url('../../assets/image/redes.jpg');
+    background-size: cover;
+    border-radius: 30px;
+
+}
+#visao{
+    background: url('../../assets/image/web.jpg');
+    background-size: cover;
+    border-radius: 30px;
+} */
+
+.cover{
+    background: rgba(0,0,0, .5);
+    padding: 5px;
+    box-shadow: 0 0 5px 1px black;
+    /* border-radius: 30px; */
+
+
+}
+.conteudo-m2v{
+    text-align: justify;
+    color: var(--branco-textual);
+}
+#card-body-about{
+    background: var(--fundo-de-alternancia);
+    width: 100%;
+}
+
+.paragrafo{
+    text-align: justify;
+    /* margin-top: 20px; */
+}
+
+
+
+@media screen and (max-width:576px) {
+    .paragrafo-about{
+        text-align: justify;
+    }
+    #card-body-about{
+        overflow: auto;
+        height: 200px;
+    }
+    #img-fluid-card-about{
+        /* height: 250px; */
+        width: 250px;
+    }
+}
+

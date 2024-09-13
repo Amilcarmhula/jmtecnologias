@@ -1,0 +1,138 @@
+
+
+.nav-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    align-items: center;
+    /* background: rgba(34, 68, 2, 0.541); */
+    /* box-shadow: 0 0 50px 10px rgba(26, 122, 110, 0.664); */
+    /* background: linear-gradient(90deg, rgba(0, 255, 0, 0.3) 0%, rgba(0, 0, 255, 0.5) 50%, rgba(255, 0, 0, 0.3) 100%); */
+    background: #fff;
+    z-index: 1000;
+    height: 57.5px;
+}
+#p-logo{
+    color: #000;
+    font-size: 1.5rem ;
+    font-weight: 800;
+    text-shadow: 0px 0px 15px rgba(46, 96, 172, 0.74);
+    margin-left: 10px;
+}
+.btn-log{
+    background: rgb(0, 176, 240);
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.btn-log:hover{
+    box-shadow: 0 0 5px 3px rgb(0,0,102,.4);
+}
+/* .nav-btn{
+    margin-right: 10px;
+} */
+
+.nav-menu-btn{
+    color: #fff;
+    padding: 10px;
+    background: rgba(121, 121, 121, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+}
+#login{
+    display: none;
+}
+
+.nav-menu ul{
+    display: flex;
+}
+.nav-menu ul li{
+    list-style-type: none;
+    padding: 0 10px;
+    margin: 20px;
+}
+.nav-menu ul li .link{
+    text-decoration: none;
+    color: #000;
+    padding: 5px;  
+    font-weight: 600;
+}
+
+.nav-menu ul li .link:hover, .active{
+    border-bottom: 5px solid #000;
+}
+
+
+@media screen and (max-width:992px) {
+    .nav-menu ul li{
+        padding: 0 5px;
+        margin: 15px;   
+    }
+
+    .nav-btn{
+        margin-top: 5px;
+    }
+    .nav-menu ul li{
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .nav-menu ul li{
+        padding: 0 0px;
+        margin: 10px;   
+    }
+    .btn-log{
+        /* padding: 5px; */
+        /* border-radius: 20px; */
+        font-size: .8rem;
+    }
+/* }
+
+@media screen and (max-width:576px) { */
+    .nav-menu-btn{
+        display: block;
+        /* margin-right: 20px; */
+    }
+    .nav-menu ul{
+        flex-direction: column;
+        text-align: center;
+
+    }
+    .nav-menu{
+        display: flex;
+        position: absolute;
+        top: -1500px;
+        justify-content: center;
+        width: 100%;
+        backdrop-filter: blur(20px);
+        background: rgba(192, 192, 192, 0.2);
+        padding: 20px 0 20px 0;
+        height: 100vh;
+        transition: .4s;
+        /* display: none; */
+    }
+
+    .nav-menu.responsive{
+        top: 57.5px;
+    }
+    .nav-btn{
+        display: none;
+    }
+    #login{
+        display: block;
+    }
+
+}
+
