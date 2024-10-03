@@ -18,8 +18,7 @@ function AboutSection() {
 
                     <div className="row">
                         <p className="paragrafo-about">
-                            <strong>Rever este paragrafo</strong>
-                            A JM-Tecnologias, fundada em 2022, tem como principal missão atender à crescente demanda por soluções tecnológicas inovadoras. Especializada no fornecimento de artigos eletrónicos, serviços eletrónicos e tecnológicos, bem como soluções customizadas de softwares e automação, a empresa destaca-se pela sua abordagem abrangente no universo tecnológico.
+                        A JM-Tecnologias, fundada em 2022, é uma empresa comprometida em atender à crescente demanda por soluções tecnológicas inovadoras. Especializada no fornecimento de artigos eletrônicos, serviços eletrônicos e tecnológicos, bem como soluções customizadas de softwares e automação, a JM-Tecnologias destaca-se pela sua abordagem abrangente no universo tecnológico
                         </p>
                     </div>
                     <div className="row p-3">

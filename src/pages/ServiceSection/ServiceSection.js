@@ -25,9 +25,9 @@ function ServiceSection() {
                             <div className="col-xl-3 col-lg-4 col-md-4 col-sm-6">
 
                                 <div className="card">
-                                    
+
                                     <a href="#" className="service-link text-center">
-                                        <img src={cardServiceImage2} className="" id="card-img-top-service" alt="..." />
+                                        <img src={cardServiceImage} className="card-img-top" alt="..." />
                                         <div className="card-body" id="card-body">
                                             <h5 className="card-title" id="card-title">
                                                 segurança digitais
@@ -43,7 +43,7 @@ function ServiceSection() {
 
                             <div className="col-xl-3 col-lg-4 col-md-4 col-sm-6">
                                 <div className="card">
-                                    <a href="#" className="service-link">
+                                    <a href="#" className="service-link text-center">
                                         <img src={cardServiceImage} className="card-img-top" alt="..." />
                                         <div className="card-body" id="card-body">
                                             <h5 className="card-title" id="card-title">
@@ -63,7 +63,7 @@ function ServiceSection() {
 
                             <div className="col-xl-3 col-lg-4 col-md-4 col-sm-6">
                                 <div className="card">
-                                    <a href="#" className="service-link">
+                                    <a href="#" className="service-link text-center">
                                         <img src={cardServiceImage} className="card-img-top" alt="..." />
                                         <div className="card-body" id="card-body">
                                             <h5 className="card-title" id="card-title">
@@ -79,7 +79,7 @@ function ServiceSection() {
 
                             <div className="col-xl-3 col-lg-4 col-md-4 col-sm-6">
                                 <div className="card">
-                                    <a href="#" className="service-link">
+                                    <a href="#" className="service-link text-center">
                                         <img src={cardServiceImage} className="card-img-top" alt="..." />
                                         <div className="card-body" id="card-body">
                                             <h5 className="card-title" id="card-title">
